@@ -51,3 +51,22 @@
 
 
 /* 入口样式 */
+
+.index-enter {
+    margin-top: 20rpx;
+    display: flex;
+    width: 100%;
+}
+
+.index-enter .enter-item {
+    width: 50%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.index-enter .enter-item image {
+    width: 320rpx;
+    height: 178rpx;
+}
