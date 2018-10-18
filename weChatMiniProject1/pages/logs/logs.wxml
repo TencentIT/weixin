@@ -1,0 +1,56 @@
+<!--logs.wxml 首页-->
+<!-- 图片轮播 组件尽量使用微信提供的效率好一些-->
+<view class="slider">
+    <swiper autoplay interval="3500" duration="1000" indicator-dots="true">
+        <swiper-item>
+            <!-- mode="aspectFill" 等比例缩放 -->
+            <image src="https://www.tencentit.com/images/douban-p2151837713.jpg" mode="aspectFill" width="375" height="150"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://www.tencentit.com/images/douban-p2153376390.jpg" mode="aspectFill" width="375" height="150"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://www.tencentit.com/images/douban-p2153758345.jpg" mode="aspectFill" width="375" height="150"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://www.tencentit.com/images/blog_tou_xiang.jpg" mode="aspectFill" width="375" height="150"></image>
+        </swiper-item>
+    </swiper>
+</view>
+
+<!-- 首页导航分区 -->
+<view class="index-nav">
+    <navigator class="nav-item">
+        <image src="/assets/icons/grid-01.png"></image>
+        <text>美食</text>
+    </navigator>
+    <navigator class="nav-item">
+        <image src="/assets/icons/grid-02.png"></image>
+        <text>美食</text>
+    </navigator>
+    <navigator class="nav-item">
+        <image src="/assets/icons/grid-03.png"></image>
+        <text>美食</text>
+    </navigator>
+    <navigator class="nav-item">
+        <image src="/assets/icons/grid-01.png"></image>
+        <text>美食</text>
+    </navigator>
+    <navigator class="nav-item">
+        <image src="/assets/icons/grid-02.png"></image>
+        <text>美食</text>
+    </navigator>
+    <navigator class="nav-item">
+        <image src="/assets/icons/grid-03.png"></image>
+        <text>美食</text>
+    </navigator>
+    <navigator class="nav-item">
+        <image src="/assets/icons/grid-01.png"></image>
+        <text>美食</text>
+    </navigator>
+    <navigator class="nav-item">
+        <image src="/assets/icons/grid-02.png"></image>
+        <text>美食</text>
+    </navigator>
+
+</view>

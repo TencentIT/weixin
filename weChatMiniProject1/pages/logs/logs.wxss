@@ -1,0 +1,43 @@
+/* 局部样式 */
+
+.slider,
+.slider image,
+.slider swiper {
+    width: 100%;
+    height: 390rpx;
+}
+
+.index-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.index-nav .nav-item {
+    height: 200rpx;
+    width: 33.333%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*列方向 垂直*/
+    flex-direction: column;
+    /* 1rpx边框问题 解决方案1  */
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.index-nav .nav-item:nth-child(3n)::after {
+    border-right: 0;
+}
+
+.index-nav .nav-item:nth-child(3n) {
+    border-right: 0;
+}
+
+.index-nav .nav-item image {
+    width: 80rpx;
+    height: 80rpx;
+}
