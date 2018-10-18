@@ -4,13 +4,13 @@
     <swiper autoplay interval="3500" duration="1000" indicator-dots="true">
         <swiper-item>
             <!-- mode="aspectFill" 等比例缩放 -->
-            <image src="https://www.tencentit.com/images/douban-p2151837713.jpg" mode="aspectFill" width="375" height="150"></image>
+            <image src="/assets/images/banner-01.png" mode="aspectFill" width="375" height="150"></image>
         </swiper-item>
         <swiper-item>
-            <image src="https://www.tencentit.com/images/douban-p2153376390.jpg" mode="aspectFill" width="375" height="150"></image>
+            <image src="/assets/images/banner-02.png" mode="aspectFill" width="375" height="150"></image>
         </swiper-item>
         <swiper-item>
-            <image src="https://www.tencentit.com/images/douban-p2153758345.jpg" mode="aspectFill" width="375" height="150"></image>
+            <image src="/assets/images/banner-01.png" mode="aspectFill" width="375" height="150"></image>
         </swiper-item>
         <swiper-item>
             <image src="https://www.tencentit.com/images/blog_tou_xiang.jpg" mode="aspectFill" width="375" height="150"></image>
@@ -20,11 +20,11 @@
 
 <!-- 首页导航分区 -->
 <view class="index-nav">
-    <navigator class="nav-item">
+    <navigator class="nav-item bdr">
         <image src="/assets/icons/grid-01.png"></image>
         <text>美食</text>
     </navigator>
-    <navigator class="nav-item">
+    <navigator class="nav-item bdr">
         <image src="/assets/icons/grid-02.png"></image>
         <text>美食</text>
     </navigator>
@@ -32,11 +32,11 @@
         <image src="/assets/icons/grid-03.png"></image>
         <text>美食</text>
     </navigator>
-    <navigator class="nav-item">
+    <navigator class="nav-item  bdr">
         <image src="/assets/icons/grid-01.png"></image>
         <text>美食</text>
     </navigator>
-    <navigator class="nav-item">
+    <navigator class="nav-item  bdr">
         <image src="/assets/icons/grid-02.png"></image>
         <text>美食</text>
     </navigator>
@@ -44,13 +44,23 @@
         <image src="/assets/icons/grid-03.png"></image>
         <text>美食</text>
     </navigator>
-    <navigator class="nav-item">
+    <navigator class="nav-item  bdr">
         <image src="/assets/icons/grid-01.png"></image>
         <text>美食</text>
     </navigator>
-    <navigator class="nav-item">
+    <navigator class="nav-item bdr">
         <image src="/assets/icons/grid-02.png"></image>
         <text>美食</text>
     </navigator>
 
+
+    <!-- 入口区域 -->
+    <view class="index-enter">
+        <navigator class="enter-item">
+            <image src="/assets/images/link-01.png"></image>
+        </navigator>
+        <navigator class="enter-item">
+            <image src="/assets/images/link-02.png"></image>
+        </navigator>
+    </view>
 </view>

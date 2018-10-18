@@ -13,3 +13,21 @@
 li {
     list-style: none;
 }
+
+
+/* 右侧边线 */
+
+.bdr {
+    position: relative;
+}
+
+.bdr::after {
+    content: "";
+    display: block;
+    width: 1rpx;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-right: 1px solid #ccc;
+}
