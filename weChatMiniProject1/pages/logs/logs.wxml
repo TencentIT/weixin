@@ -33,26 +33,29 @@
         <text>美食</text>
     </navigator>
     <navigator class="nav-item  bdr">
-        <image src="/assets/icons/grid-01.png"></image>
+        <image src="/assets/icons/grid-04.png"></image>
         <text>美食</text>
     </navigator>
     <navigator class="nav-item  bdr">
-        <image src="/assets/icons/grid-02.png"></image>
+        <image src="/assets/icons/grid-05.png"></image>
         <text>美食</text>
     </navigator>
     <navigator class="nav-item">
-        <image src="/assets/icons/grid-03.png"></image>
+        <image src="/assets/icons/grid-05.png"></image>
         <text>美食</text>
     </navigator>
     <navigator class="nav-item  bdr">
-        <image src="/assets/icons/grid-01.png"></image>
+        <image src="/assets/icons/grid-06.png"></image>
         <text>美食</text>
     </navigator>
     <navigator class="nav-item bdr">
-        <image src="/assets/icons/grid-02.png"></image>
+        <image src="/assets/icons/grid-07.png"></image>
         <text>美食</text>
     </navigator>
-
+    <navigator class="nav-item bdr">
+        <image src="/assets/icons/grid-08.png"></image>
+        <text>美食</text>
+    </navigator>
 
     <!-- 入口区域 -->
     <view class="index-enter">
@@ -63,4 +66,6 @@
             <image src="/assets/images/link-02.png"></image>
         </navigator>
     </view>
+
+
 </view>

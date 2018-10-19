@@ -1,18 +1,30 @@
-// pages/news/news.js
+// pages/home/home.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    message:"小程序数据",
+    app:"home",
+    rows:[{id:1,name:"华为"},{id:2,name:"iPhone9"}]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+    wx.request({
+      url:"http://127.0.0.1:3000/sales",
+      pmethod:"get",
+      success:(result)=>{
+        console.log(result)
+        // this.rows = res.data; 错误的写法
+        this.setData({
+          rows:result.data
+        })
+      }
+    })
   },
 
   /**

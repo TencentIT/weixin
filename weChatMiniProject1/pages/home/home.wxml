@@ -1,0 +1,12 @@
+<view>
+    {{message}}
+</view>
+
+<view wx:if="{{app=='home'}}">
+    home
+</view>
+<view wx:for="{{rows}}" wx:key="{{id}}">
+    <!-- {{item.id}} -->
+    {{item.name}}
+    <!-- {{index}} -->
+</view>
